@@ -1,0 +1,9 @@
+dataset/uci_dataset/
+dataset/census_income_kdd/
+dataset/default_of_credit_card_clients/
+__pycache__/
+rebuttal/
+saved_results/
+.vscode/
+
+/*.ipynb
