@@ -69,12 +69,11 @@ pip install -r requirements.txt
 
 For complete 5-fold cross-validation experiments on different datasets, check out the notebooks in the `notebooks/` directory:
 
-- [notebooks/z_5fold_1german.ipynb](notebooks/z_5fold_1german.ipynb) - German Credit dataset
-- [notebooks/z_5fold_2compas.ipynb](notebooks/z_5fold_2compas.ipynb) - COMPAS dataset
-- [notebooks/z_5fold_4adult.ipynb](notebooks/z_5fold_4adult.ipynb) - Adult dataset
-- [notebooks/z_5fold_5census_income.ipynb](notebooks/z_5fold_5census_income.ipynb) - Census Income dataset
+- [notebooks/main_compas_binary-sex_5fold.ipynb](notebooks/main_compas_binary-sex_5fold.ipynb) - COMPAS dataset (binary sensitive attribute: sex)
+- [notebooks/main_compas_binary-race_5fold.ipynb](notebooks/main_compas_binary-race_5fold.ipynb) - COMPAS dataset (binary sensitive attribute: race)
+- [notebooks/main_compas_multi-race_5fold.ipynb](notebooks/main_compas_multi-race_5fold.ipynb) - COMPAS dataset (multi-group sensitive attribute: race)
 
-If you want to run other datasets or classifiers, you just need to change the dataset_name and classifier in the code.
+If you want to run experiments on other datasets (German Credit, Adult, Census Income, Default Credit) or use different classifiers, you can modify these notebooks by changing the dataset_name and classifier parameters in the code.
 
 ### Using the API
 
